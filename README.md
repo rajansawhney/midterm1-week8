@@ -1,12 +1,10 @@
 # ICS 212
-## Homework - Week 6
+## Midterm1- Week 8
 
-# Arrays
+### Instruction:
+- Update the program files following the assignment description provided in Midterm_Week8.pdf (uploaded on Laulima)
 
-### Assignment:
-- Update the program files following the assignment description provided in HomeworkAssignment_Week6.pdf (uploaded on Laulima)
-
-**NOTE**: Github is not a place to test your code. Test it on your machines first. DO NOT exceed 10 commits. We will start out by sending emails to you personally if you exceed 10 commits, and eventually penalizing your grade.
+**NOTE**: Github is not a place to test your code. Test it on your machines first. DO NOT exceed 10 commits. If you exceed 10 commits, your grade will be penalized.
 
 ### Steps to submit changes:
 1. Click on desired .c to open file
