@@ -28,7 +28,29 @@ echo
 echo "*****"
 echo
 echo "Area calculator..."
-output_area_calc=$(./area_calc <test/input_area_calc)
+
+echo "1 - Circle"
+echo
+output_area_calc=$(./area_calc <test/input_area_calc_circle)
+echo $output_area_calc
+expected_output_area_calc="78.50"
+
+if [ $? -eq 0 ] ; then
+  echo "Pass: Program exited zero"
+else
+  echo "Fail: Program did not exit zero"
+  exit 1
+fi
+
+if [[ $output_area_calc == *$expected_output_area_calc* ]] ; then
+  echo "Pass: Output is correct"
+else
+  echo "Expected '$expected_output_area_calc' but got: $output_area_calc"
+  exit 1
+fi
+echo
+echo "2 - Square"
+output_area_calc=$(./area_calc <test/input_area_calc_square)
 echo $output_area_calc
 expected_output_area_calc="25.00"
 
@@ -36,17 +58,39 @@ if [ $? -eq 0 ] ; then
   echo "Pass: Program exited zero"
 else
   echo "Fail: Program did not exit zero"
-  # exit 1
+  exit 1
 fi
 
 if [[ $output_area_calc == *$expected_output_area_calc* ]] ; then
   echo "Pass: Output is correct"
 else
   echo "Expected '$expected_output_area_calc' but got: $output_area_calc"
-  # exit 1
+  exit 1
 fi
 
+
+
 echo
+echo "3 - Sphere"
+echo
+output_area_calc=$(./area_calc <test/input_area_calc_sphere)
+echo $output_area_calc
+expected_output_area_calc="78.50"
+
+if [ $? -eq 0 ] ; then
+  echo "Pass: Program exited zero"
+else
+  echo "Fail: Program did not exit zero"
+  exit 1
+fi
+
+if [[ $output_area_calc == *$expected_output_area_calc* ]] ; then
+  echo "Pass: Output is correct"
+else
+  echo "Expected '$expected_output_area_calc' but got: $output_area_calc"
+  exit 1
+fi
+
 echo "*****"
 echo
 echo "Matrix transpose..."

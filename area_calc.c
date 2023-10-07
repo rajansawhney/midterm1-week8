@@ -11,6 +11,8 @@ As a reminder:
             a=s*s       # where s is the side of the square
     - the area a of a sphere is calculated as:
             a=4*p*r2    # where r is the radius of the sphere
+    Use p (pi) as 3.14
+
 
 Note:
 1. Program should accept only positive integers. Check for negative integers.
