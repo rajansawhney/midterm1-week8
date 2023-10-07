@@ -10,4 +10,4 @@
 *.pptx
 *.key
 *.out
-test/*c
+test/*.c
