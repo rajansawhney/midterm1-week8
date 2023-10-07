@@ -28,7 +28,7 @@ echo
 echo "*****"
 echo
 echo "Area calculator..."
-output_area_calc=$(./area_calc <tests/input_area_calc)
+output_area_calc=$(./area_calc <test/input_area_calc)
 echo $output_area_calc
 expected_output_area_calc="25.00"
 
@@ -50,7 +50,7 @@ echo
 echo "*****"
 echo
 echo "Matrix transpose..."
-output_mat_transpose=$(./mat_transpose <tests/input_mat_transpose)
+output_mat_transpose=$(./mat_transpose <test/input_mat_transpose)
 echo $output_mat_transpose
 expected_output_mat_transpose="   1   4
    2   5
