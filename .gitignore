@@ -9,3 +9,5 @@
 *.pages
 *.pptx
 *.key
+*.out
+test.*
