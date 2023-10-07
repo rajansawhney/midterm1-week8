@@ -68,14 +68,12 @@ else
   exit 1
 fi
 
-
-
 echo
 echo "3 - Sphere"
 echo
 output_area_calc=$(./area_calc <test/input_area_calc_sphere)
 echo $output_area_calc
-expected_output_area_calc="78.50"
+expected_output_area_calc="314.00"
 
 if [ $? -eq 0 ] ; then
   echo "Pass: Program exited zero"
