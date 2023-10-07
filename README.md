@@ -1,7 +1,7 @@
 # ICS 212
 ## Midterm1- Week 8
 
-### Instruction:
+### Instructions:
 - Update the program files following the assignment description provided in Midterm_Week8.pdf (uploaded on Laulima)
 
 **NOTE**: Github is not a place to test your code. Test it on your machines first. DO NOT exceed 10 commits. If you exceed 10 commits, your grade will be penalized.
