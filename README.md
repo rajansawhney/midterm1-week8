@@ -2,7 +2,7 @@
 ## Midterm1- Week 8
 
 ### Instructions:
-- Update the program files following the assignment description provided in Midterm_Week8.pdf (uploaded on Laulima)
+- Update the program files following instructions provided in Midterm_Week8.pdf (uploaded on Laulima) and in the program comments.
 
 **NOTE**: Github is not a place to test your code. Test it on your machines first. DO NOT exceed 10 commits. If you exceed 10 commits, your grade will be penalized.
 
