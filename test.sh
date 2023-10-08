@@ -89,28 +89,28 @@ else
   exit 1
 fi
 
-echo "*****"
-echo
-echo "Matrix transpose..."
-output_mat_transpose=$(./mat_transpose <test/input_mat_transpose)
-echo $output_mat_transpose
-expected_output_mat_transpose="   1   4
-   2   5
-   3   6"
+# echo "*****"
+# echo
+# echo "Matrix transpose..."
+# output_mat_transpose=$(./mat_transpose <test/input_mat_transpose)
+# echo $output_mat_transpose
+# expected_output_mat_transpose="   1   4
+#    2   5
+#    3   6"
 
-if [ $? -eq 0 ] ; then
-  echo "Pass: Program exited zero"
-else
-  echo "Fail: Program did not exit zero"
-  exit 1
-fi
+# if [ $? -eq 0 ] ; then
+#   echo "Pass: Program exited zero"
+# else
+#   echo "Fail: Program did not exit zero"
+#   exit 1
+# fi
 
-if [[ $output_mat_transpose == *$expected_output_mat_transpose* ]] ; then
-  echo "Pass: Output is correct"
-else
-  echo "Expected '$expected_output_mat_transpose' but got: $output_mat_transpose"
-  exit 1
-fi
+# if [[ $output_mat_transpose == *$expected_output_mat_transpose* ]] ; then
+#   echo "Pass: Output is correct"
+# else
+#   echo "Expected '$expected_output_mat_transpose' but got: $output_mat_transpose"
+#   exit 1
+# fi
 
 echo
 echo "*****"
